@@ -12,6 +12,7 @@ import InstructorSection from '../components/core/HomePage/InstructorSection'
 import Footer from '../components/common/Footer'
 import ExploreMore from '../components/core/HomePage/ExploreMore'
 
+
 const Home = () => {
   return (
     <div>
