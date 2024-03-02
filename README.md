@@ -1,31 +1,72 @@
-# React & Tailwind CSS Starter Pack
+# StudyNotion Project
 
-This is a starter pack for creating React projects with Tailwind CSS configured. It uses React version **18.2** and Tailwind CSS version **3.2**.
+Welcome to the StudyNotion project! This repository houses the code for our ed-tech platform, designed to empower your coding journey.
 
-## Usage
+## Project Overview
 
-This starter pack includes a basic setup for using **Tailwind CSS with React**. To start building your own components and styles, follow these steps:
+StudyNotion is built using the MERN (MongoDB, Express.js, React.js, Node.js) stack. The platform focuses on providing a seamless learning experience with features like user authentication, course creation, tags, OTP generation, and more.
 
-1. Clone the repository to your local machine.
-    ```sh
-    git clone https://github.com/thepranaygupta/react-tailwind-css-starter-pack.git
-    ```
+## Tech Stack & Development
 
-1. Install the required packages.
-    ```sh
-    cd react-tailwind-css-starter-pack
-    npm install
-    ```
+- **Full Stack Development:**
+  - Technologies: Node.js, Express, MongoDB, Mongoose, JWT, Cloudinary, Nodemailer, and more.
 
-1. Start the development server.
-    ```sh
-    npm start
-    ```
-1. Open the project in your browser at [`http://localhost:3000`](http://localhost:3000) to view your project.
-1. Create your React components and add your styles using Tailwind classes. You can also create new CSS files and import them into your components.
+## Key Project Modules
 
-The project is set up to use `postcss-cli` to process your CSS files. You can add your own `tailwind.config.js` file to customize your Tailwind setup.
+- **User Authentication**
+- **Course Creation & Management**
+- **Tags & Categorization**
+- **OTP Generation & Verification**
+- **User Profiles & Progress Tracking**
+
+## Current Development Highlights
+
+Our development journey has been marked by significant milestones. Here's a snapshot of our progress:
+
+- **Backend Development Completed:**
+  - Backend development has been successfully completed, laying a robust foundation for StudyNotion's functionality.
+
+- **Frontend Development Progress:**
+  - Currently, the frontend development is in full swing, focusing on crafting an intuitive user interface.
+
+- **Completed Pages:**
+  - Home Page: The homepage is designed to provide a welcoming and informative entry point for users.
+  - Navbar: An interactive and responsive navigation bar has been implemented for seamless user navigation.
+  - Login Page: A user-friendly login page is now available for secure access to StudyNotion.
+  - Signup Page: The signup page allows users to create accounts with ease.
+  - Forget Password: A functionality to reset passwords is implemented for user convenience.
+  - Verify Email: Users can now verify their email addresses during the signup process.
+
+Stay tuned for more updates as we continue to enhance and refine the StudyNotion platform!
+
+## Dependencies Installed
+
+The project relies on a carefully selected set of dependencies, including bcrypt, cookie-parser, dotenv, express, jsonwebtoken, mongoose, nodemailer, nodemon, otp-generator.
+
+## Exploring Data Models
+
+Dive into the intricacies of our data models, including Student, Instructor, Course, Tags, OTP, and more.
+
+## Codebase Highlights
+
+Explore our backend code snippets, including middleware for authentication, user roles (Student, Instructor, Admin), and utility functions for OTP generation and image upload on Cloudinary.
+
+## Project Repositories
+
+GitHub repositories for StudyNotion modules, controllers, middleware, and utilities can be found at [Project Repositories](https://github.com/HarshalMjn/Study-Notion).
+
+## Getting Started
+
+1. Clone the repository: `git clone https://github.com/HarshalMjn/Study-Notion.git`
+2. Install dependencies: `npm install`
+3. Set up environment variables: Create a `.env` file based on the provided `.env.example`.
+4. Run the development server: `npm run dev`
 
 ## Contributing
 
-Contributions are welcome! If you have any suggestions or find any issues, please feel free to open an issue or a pull request.
+We welcome contributions! Feel free to fork the repository and submit pull requests.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
