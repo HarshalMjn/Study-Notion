@@ -6,6 +6,9 @@ import OpenRoute from "./components/core/auth/OpenRoute"
 
 import Login from "./Pages/Login"
 import Signup from './Pages/Signup'
+import ForgotPassword from "./Pages/ForgetPassword";
+import VerifyEmail from "./Pages/VerifyEmail"
+import UpdatePassword from "./Pages/UpdatePassword"
 
 
 
@@ -33,6 +36,29 @@ function App() {
         
 
       </Route>
+      <Route
+         path="forgot-password"
+         element={
+          <OpenRoute>
+            <ForgotPassword />
+          </OpenRoute>
+        }
+      />
+      <Route
+         path="verify-email"
+         element={
+          <OpenRoute>
+            <VerifyEmail/>
+          </OpenRoute>
+        }/>
+     <   Route
+          path="update-password/:id"
+          element={
+            <OpenRoute>
+              <UpdatePassword />
+            </OpenRoute>
+          }
+        />  
     </Routes>
    </div>
   );
