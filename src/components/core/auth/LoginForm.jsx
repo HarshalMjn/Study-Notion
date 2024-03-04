@@ -15,9 +15,7 @@ function LoginForm() {
     password: "",
   })
 
-  const logiN = useGoogleLogin({
-    onSuccess: tokenResponse => console.log(tokenResponse),
-  });
+  
 
   const [showPassword, setShowPassword] = useState(false)
 
