@@ -7,7 +7,7 @@ import { useSelector } from 'react-redux'
 import {AiOutlineShoppingCart} from "react-icons/ai"
 import ProfileDropdown from '../core/auth/ProfileDropdown'
 import {IoIosArrowDropdownCircle} from "react-icons/io"
-import { apiConnector } from '../../services/apiConnector'
+import { apiConnector } from '../../services/apiconnector'
 import { categories } from '../../services/apis'
 
 const subLinks = [

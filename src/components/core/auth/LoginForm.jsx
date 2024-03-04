@@ -4,6 +4,7 @@ import { useDispatch } from "react-redux"
 import { Link, useNavigate } from "react-router-dom"
 
 
+
 import { login } from "../../../services/operations/authAPI"
 
 function LoginForm() {
@@ -13,6 +14,10 @@ function LoginForm() {
     email: "",
     password: "",
   })
+
+  const logiN = useGoogleLogin({
+    onSuccess: tokenResponse => console.log(tokenResponse),
+  });
 
   const [showPassword, setShowPassword] = useState(false)
 
@@ -88,8 +93,9 @@ function LoginForm() {
         type="submit"
         className="mt-6 rounded-[8px] bg-yellow-50 py-[8px] px-[12px] font-medium text-richblack-900"
       >
-        Sign In
+        LOG IN
       </button>
+      
     </form>
   )
 }

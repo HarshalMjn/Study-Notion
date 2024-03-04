@@ -11,5 +11,5 @@ export const apiConnector = (method, url, bodyData, hraders, parans) => {
         headers:hraders ? hraders: null,
         params: parans ? parans : null,
 
-    })
+    });
 }
